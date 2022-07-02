@@ -13,12 +13,11 @@ users = {}
 def users(user_id):
     if request.method == 'GET':
         try:
-            request_data = request.json
-            user_id = request_data["user_id"]
             get_value(user_id)
-            return {'user_id': user_id, 'user_name': users[user_id]}, 200 # status code
+            user = get_value(user_id)
+            return {'user_id': user_id, 'user_name': user}, 200
         except:
-            return {'status': 'error', 'reason': 'no such ID'}, 500
+            return {'status': 'error', 'reason': 'ID already exist'}, 500
 
     elif request.method == 'POST':
         try:

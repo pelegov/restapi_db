@@ -37,3 +37,4 @@ def delete_value(id):
 
 
 
+#print(get_value('1'))
