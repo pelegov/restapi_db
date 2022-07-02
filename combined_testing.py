@@ -10,8 +10,9 @@ conn.autocommit(True)
 cursor = conn.cursor()
 driver = webdriver.Firefox(executable_path="/Users/nave-peleg/Downloads/geckodriver")
 
+###POST call method
 payload = json.dumps({
-  "user_id": 12,
+  "user_id": 2,
   "user_name": "navetime",
   "creation_date": "17022022"
 })
@@ -21,10 +22,15 @@ headers = {
 response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 
-get = requests.get('http://127.0.0.1:5000/users/12')
+###Get call method
+get = requests.get('http://127.0.0.1:5000/users/1')
 if get.ok:
-    print(res.json())
+    print(get.json())
 
-get_value("12")
+###Function calling to check data
+get_value("1")
 
-driver.get('http://127.0.0.1:5000/users/12')
+###Selenium test.
+driver.get('http://127.0.0.1:5000/users/1')
+
+

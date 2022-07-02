@@ -876,3 +876,43 @@ console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkErr
 
 ###!!! [Parent][PImageBridgeParent] Error: RunMessage(msgname=PImageBridge::Msg_WillClose) Channel closing: too late to send/recv, messages will be lost
 
+1656798831608	geckodriver	INFO	Listening on 127.0.0.1:62939
+1656798832119	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62940" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofile6FMQIe"
+WebDriver BiDi listening on ws://localhost:62940
+DevTools listening on ws://localhost:62940/devtools/browser/b9ec59b0-a693-4a59-a9ca-a05ee8b6d2d8
+1656798848595	geckodriver	INFO	Listening on 127.0.0.1:62985
+1656798849108	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62986" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofilebCBuep"
+1656798849635	Marionette	INFO	Marionette enabled
+1656798849667	Marionette	INFO	Listening on port 62993
+WebDriver BiDi listening on ws://localhost:62986
+Read port: 62993
+1656798850068	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofilebCBuep/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:62986/devtools/browser/b2c75d23-e59e-46b3-ad1b-cedbf119d58d
+1656798866316	geckodriver	INFO	Listening on 127.0.0.1:63028
+1656798866833	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63029" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileKeK1Tp"
+1656798867416	Marionette	INFO	Marionette enabled
+1656798867444	Marionette	INFO	Listening on port 63037
+WebDriver BiDi listening on ws://localhost:63029
+Read port: 63037
+1656798867840	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileKeK1Tp/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63029/devtools/browser/80278db5-1b27-45c5-b476-c19d39f0d850
+1656799104706	geckodriver	INFO	Listening on 127.0.0.1:63093
+1656799105219	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63094" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofilekZTykl"
+1656799105793	Marionette	INFO	Marionette enabled
+1656799105828	Marionette	INFO	Listening on port 63101
+WebDriver BiDi listening on ws://localhost:63094
+Read port: 63101
+1656799106478	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofilekZTykl/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63094/devtools/browser/dcf60389-e337-4232-b51d-884c51997ada
+1656799123241	geckodriver	INFO	Listening on 127.0.0.1:63141
+1656799123754	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63142" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileP1EhLt"
+1656799124274	Marionette	INFO	Marionette enabled
+1656799124305	Marionette	INFO	Listening on port 63149
+WebDriver BiDi listening on ws://localhost:63142
+Read port: 63149
+1656799124708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileP1EhLt/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63142/devtools/browser/a8d688dc-e600-4186-b1d7-1bd429f936db

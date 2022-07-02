@@ -4,10 +4,9 @@ import requests
 app = Flask(__name__)
 
 @app.route('/users/get_user_data/<user_id>', methods=['GET'])
-#@app.route('/users/get_user_data/<user_id>', methods=['POST', 'GET', 'DELETE', 'PUT'])
 def get_user_name(user_id):
+    ### Creating value based on function retur values in http convention.
         user_name = get_value(user_id)
-        print(user_name)
         if user_name:
             return "<H1 id='user'>" + user_name + "</H1>"
         else:
