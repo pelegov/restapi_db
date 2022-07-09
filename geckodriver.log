@@ -916,3 +916,186 @@ Read port: 63149
 1656799124708	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileP1EhLt/search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:63142/devtools/browser/a8d688dc-e600-4186-b1d7-1bd429f936db
+1656799198288	Marionette	INFO	Stopped listening on port 62993
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656799200851	Marionette	INFO	Stopped listening on port 63037
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656799203306	Marionette	INFO	Stopped listening on port 63101
+1656799205572	Marionette	INFO	Stopped listening on port 63149
+1656799591250	geckodriver	INFO	Listening on 127.0.0.1:63362
+1656799591261	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63363" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileRW20iD"
+1656799591776	Marionette	INFO	Marionette enabled
+1656799591809	Marionette	INFO	Listening on port 63368
+WebDriver BiDi listening on ws://localhost:63363
+Read port: 63368
+1656799592196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofileRW20iD/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:63363/devtools/browser/784606d6-70d4-4744-85cf-7cebd8a14d59
+console.error: services.settings: 
+  Message: TypeError: NetworkError: Network request failed
+  Stack:
+    fetch/</request.onerror@resource://services-settings/Utils.jsm:237:26
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+console.error: services.settings: 
+  Message: NetworkOfflineError: Network is offline
+  Stack:
+    NetworkOfflineError@resource://services-settings/RemoteSettingsClient.jsm:113:5
+maybeSync@resource://services-settings/RemoteSettingsClient.jsm:553:15
+remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:347:22
+
+1656836748880	Marionette	INFO	Stopped listening on port 63368
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1656938906069	geckodriver	INFO	Listening on 127.0.0.1:60878
+1656938906513	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60879" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofile8BznKU"
+1656938907926	Marionette	INFO	Marionette enabled
+1656938907974	Marionette	INFO	Listening on port 60887
+WebDriver BiDi listening on ws://localhost:60879
+Read port: 60887
+1656938908538	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
