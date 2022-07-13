@@ -13,9 +13,9 @@ pipeline {
             steps {
                 script {
                     if (checkOs() == 'Windows') {
-                        bat 'python rest_app.py'
+                        bat 'python3 rest_app.py'
                     } else {
-                        sh 'python rest_app.py'
+                        sh 'python3 rest_app.py'
                     }
                 }
             }
