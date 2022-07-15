@@ -13,9 +13,9 @@ pipeline {
             steps {
                 script {
                     if (checkOs() == 'Windows') {
-                        bat 'python3 rest_app.py'
+                        bat 'start /min python3 rest_app.py'
                     } else {
-                        sh 'python3 rest_app.py'
+                        sh 'nohup python3 rest_app.py &'
                     }
                 }
             }
