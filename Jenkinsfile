@@ -20,6 +20,17 @@ pipeline {
                 }
             }
         }
+        stage('run web_app') {
+            steps {
+                script {
+                    if (checkOs() == 'Windows') {
+                        bat 'python3 web_app.py'
+                    } else {
+                        sh 'python3 web_app.py'
+                    }
+                }
+            }
+        }
     }
 }
 
