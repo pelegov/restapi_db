@@ -31,6 +31,17 @@ pipeline {
                 }
             }
         }
+        stage('run back_end_testing') {
+            steps {
+                script {
+                    if (checkOs() == 'Windows') {
+                        bat 'python3 backend_testing.py'
+                    } else {
+                        sh 'python3 backend_testing.py'
+                    }
+                }
+            }
+        }
     }
 }
 
