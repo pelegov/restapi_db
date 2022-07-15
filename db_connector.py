@@ -37,4 +37,3 @@ def delete_value(id):
     cursor.close()
     conn.close()
     return
-
