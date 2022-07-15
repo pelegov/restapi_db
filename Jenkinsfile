@@ -42,6 +42,17 @@ pipeline {
                 }
             }
         }
+        stage('run clean_environment') {
+            steps {
+                script {
+                    if (checkOs() == 'Windows') {
+                        bat 'python3 clean_environment.py'
+                    } else {
+                        sh 'python3 clean_environment.py'
+                    }
+                }
+            }
+        }
     }
 }
 
