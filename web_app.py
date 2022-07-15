@@ -14,9 +14,12 @@ def get_user_name(user_id):
         else:
             return "<H1 id='error'>" 'no such user: ' + user_id + "</H1>"
 
-app.run(host='127.0.0.1', debug=True, port=5001)
 
 @app.route('/stop_server')
 def stop_server():
     os.kill(os.getpid(), signal.CTRL_C_EVENT)
     return 'Server Stopped'
+
+
+app.run(host='127.0.0.1', debug=True, port=5001)
+
