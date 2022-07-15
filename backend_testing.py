@@ -3,7 +3,7 @@ import json
 import pymysql
 
 
-conn = pymysql.connect(host='remotemysql.com', port=3306, user='tZsOURTiTL', passwd='kjgwPi1fPd', db='tZsOURTiTL')
+conn = pymysql.connect(host='sql11.freemysqlhosting.net', port=3306, user='sql11506470', passwd='QwjD6b64t9', db='sql11506470')
 conn.autocommit(True)
 cursor = conn.cursor()
 
@@ -31,7 +31,7 @@ if get.ok:
 ###Function for checking realibility of the data.
 def get_value_be():
     user_id = "2"
-    cursor.execute("SELECT * FROM tZsOURTiTL.users WHERE (user_id) = " + user_id + ";")
+    cursor.execute("SELECT * FROM sql11506470.users WHERE (user_id) = " + user_id + ";")
     user_name = ""
     for row in cursor:
         print(row)
