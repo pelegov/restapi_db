@@ -53,6 +53,17 @@ pipeline {
                 }
             }
         }
+        stage('run combined_testing') {
+            steps {
+                script {
+                    if (checkOs() == 'Windows') {
+                        bat 'python3 combined_testing.py'
+                    } else {
+                        sh 'python3 combined_testing.py'
+                    }
+                }
+            }
+        }
         stage('run clean_environment') {
             steps {
                 script {
