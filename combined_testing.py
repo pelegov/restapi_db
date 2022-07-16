@@ -2,10 +2,11 @@ import json
 import pymysql
 import requests
 from selenium import webdriver
+from selenium.webdriver.common.by import By
 from db_connector import post_value, get_value, delete_value, put_value
 
 url = "http://localhost:5000/users/12"
-conn = pymysql.connect(host='remotemysql.com', port=3306, user='tZsOURTiTL', passwd='kjgwPi1fPd', db='tZsOURTiTL')
+conn = pymysql.connect(host='sql11.freemysqlhosting.net', port=3306, user='sql11506470', passwd='QwjD6b64t9', db='sql11506470')
 conn.autocommit(True)
 cursor = conn.cursor()
 driver = webdriver.Firefox(executable_path="/Users/nave-peleg/Downloads/geckodriver")

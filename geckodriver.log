@@ -1203,3 +1203,11 @@ Read port: 58653
 1657921177172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/yp/3n_8tm0921n6grjz3ghrcl0r0000gp/T/rust_mozprofilekcqTys/search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:58648/devtools/browser/d3135acf-954c-4c01-b176-04618df55eb1
+1657993196881	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, reason: error
+1657993201400	Marionette	INFO	Stopped listening on port 58250
+1657993204397	Marionette	INFO	Stopped listening on port 58293
+1657993206702	Marionette	INFO	Stopped listening on port 58429
+1657993209122	Marionette	INFO	Stopped listening on port 58504
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1657993212744	Marionette	INFO	Stopped listening on port 58613
+1657993215165	Marionette	INFO	Stopped listening on port 58653
